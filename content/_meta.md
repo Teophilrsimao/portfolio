@@ -1,8 +1,8 @@
 ---
-Logo: assets/img/jag.jpg
-Tagline: My portfolio.
+Logo: assets/img/slog.svg
+Tagline: Teophil Portfolio
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/Teophilrsimao/portfolio
       icon: github
 ---

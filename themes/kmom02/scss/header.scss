@@ -1,0 +1,16 @@
+/* Header */
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+
+.header {
+    background-color: $white;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,31 @@
+.title, .logo {
+    padding: 0 3em 0 2.9em;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+.title * {
+    color: $black;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.title p {
+    font-style: italic;
+}

@@ -1,0 +1,147 @@
+/*.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}*/
+
+.box{
+    /*border: 1px solid black;*/
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.box ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.box li{
+    margin: 2rem;
+}
+
+.box li p{
+    font-size: 30px;
+}
+
+.box li a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.box li a:hover{
+    color:$white;
+}
+
+.landingpage {
+    display: grid;
+    gap: 1rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 
+    'one'
+    'two'
+    'three'
+    'four'
+    'five'
+    'six'
+    'seven'
+    'eight';
+}
+
+.box:nth-child(1) {
+    grid-area: one ;
+}
+
+.box:nth-child(2) {
+    grid-area: two ;
+    background-color: #2965f1;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: $black;
+    }
+}
+
+.box:nth-child(3) {
+    grid-area: three ;
+    background-color: #f06529 ;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: $black;
+    }
+}
+
+.box:nth-child(4) {
+    grid-area: four ;
+    background-color: #f0db4f ;
+    color: $black;
+
+    a:hover {
+        color: #808080;
+    }
+}
+
+.box:nth-child(5) {
+    grid-area: five ;
+    background-color: #8993be ;
+    color: $black;
+}
+
+.box:nth-child(6) {
+    grid-area: six ;
+    background-color: #ffe873;
+    color: $black;
+
+    a:hover {
+        color: #808080;
+    }
+}
+
+.box:nth-child(7) {
+    grid-area: seven ;
+    background-color: #f34f29;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: $black;
+    }
+}
+
+.box:nth-child(8) {
+    grid-area: eight ;
+    background-color: #1439b7;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: $black;
+    }
+}
+
+@media (min-width: 50rem) {
+    .landingpage {
+        grid-template-areas: 
+        'one one one'
+        'two three three'
+        'four four five'
+        'six six six'
+        'seven eight eight';
+    }
+}
+

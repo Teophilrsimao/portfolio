@@ -395,7 +395,8 @@ pre code {
   width: 90%;
   max-width: 900px;
   display: block;
-  margin: 100px auto;
+  margin: 150px auto;
+  margin-top: 50px;
 }
 
 .header, .footer {
@@ -578,6 +579,158 @@ img {
     line-height: 2em;
     text-align: center;
     cursor: pointer;
+  }
+}
+/*.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}*/
+.box {
+  /*border: 1px solid black;*/
+  border-radius: 20px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.box li {
+  margin: 2rem;
+}
+
+.box li p {
+  font-size: 30px;
+}
+
+.box li a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.box li a:hover {
+  color: #f0f0f0;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas: "one" "two" "three" "four" "five" "six" "seven" "eight";
+}
+
+.box:nth-child(1) {
+  grid-area: one;
+}
+
+.box:nth-child(2) {
+  grid-area: two;
+  background-color: #2965f1;
+  color: #f0f0f0;
+}
+.box:nth-child(2) a {
+  color: #f0f0f0;
+}
+.box:nth-child(2) a:hover {
+  color: #1d1d1d;
+}
+
+.box:nth-child(3) {
+  grid-area: three;
+  background-color: #f06529;
+  color: #f0f0f0;
+}
+.box:nth-child(3) a {
+  color: #f0f0f0;
+}
+.box:nth-child(3) a:hover {
+  color: #1d1d1d;
+}
+
+.box:nth-child(4) {
+  grid-area: four;
+  background-color: #f0db4f;
+  color: #1d1d1d;
+}
+.box:nth-child(4) a:hover {
+  color: #808080;
+}
+
+.box:nth-child(5) {
+  grid-area: five;
+  background-color: #8993be;
+  color: #1d1d1d;
+}
+
+.box:nth-child(6) {
+  grid-area: six;
+  background-color: #ffe873;
+  color: #1d1d1d;
+}
+.box:nth-child(6) a:hover {
+  color: #808080;
+}
+
+.box:nth-child(7) {
+  grid-area: seven;
+  background-color: #f34f29;
+  color: #f0f0f0;
+}
+.box:nth-child(7) a {
+  color: #f0f0f0;
+}
+.box:nth-child(7) a:hover {
+  color: #1d1d1d;
+}
+
+.box:nth-child(8) {
+  grid-area: eight;
+  background-color: #1439b7;
+  color: #f0f0f0;
+}
+.box:nth-child(8) a {
+  color: #f0f0f0;
+}
+.box:nth-child(8) a:hover {
+  color: #1d1d1d;
+}
+
+@media (min-width: 50rem) {
+  .landingpage {
+    grid-template-areas: "one one one" "two three three" "four four five" "six six six" "seven eight eight";
+  }
+}
+.techbox {
+  border-radius: 20px;
+}
+
+.techbox ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.techbox a {
+  text-decoration: none;
+  color: #002349;
+}
+
+.techbox a:hover, .active a {
+  border-bottom: 2px solid #1d1d1d;
+  color: #1d1d1d;
+}
+
+.techgrid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 50rem) {
+  .techgrid {
+    grid-template-rows: 20em auto;
+    grid-template-columns: 1fr 2fr;
   }
 }
 /*!

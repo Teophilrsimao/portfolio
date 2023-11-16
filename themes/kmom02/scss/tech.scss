@@ -1,0 +1,30 @@
+.techbox {
+    border-radius: 20px;
+}
+
+.techbox ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.techbox a {
+    text-decoration: none;
+    color: $blue;
+}
+
+.techbox a:hover, .active a{
+    border-bottom: 2px solid $black;
+    color: $black;
+}
+
+.techgrid {
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 50rem) {
+    .techgrid {
+        grid-template-rows: 20em auto;
+        grid-template-columns: 1fr 2fr;
+    }
+}

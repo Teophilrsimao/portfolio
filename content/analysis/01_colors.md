@@ -37,7 +37,7 @@ Resultat
 #  
 <h3><a href="https://www.golfspace.com.au/" target="_blank">GolfSpace</a></h3>
 
-<img src="assets/img/golfspace.png"  alt="golf?">
+<img src="assets/img/golfspace.jpg"  alt="golf?">
 
 #  
 Golfspaces hemsida använder främst ett monokromatiskt färgschema där man har olika nyanser av den grå färgen. Förutom det använder man även en limegrön färg för att markera vissa objekt, som till exempel knappar, priser och erbjudanden. Limefärgen passar mycket bra in på sidan eftersom den fångar användarens uppmärksamhet, särskilt då resten av sidan är grå.
@@ -57,7 +57,7 @@ Färgerna gör så att sidan känns mycket fräsch och ren, men samtidigt verkar
 
 #  
 <h3><a href="https://besthorrorscenes.com/" target="_blank">BestHorrorSpace</a></h3>
-<img src="assets/img/besthorrorscenes.png"  alt="golf?">
+<img src="assets/img/besthorrorscenes.jpg"  alt="horror?">
 
 #  
 BestHorrorScenes använder en kombination av en ljus och neutral färg samt en livlig och varm färg. Den ljusgråa färgen, som är neutral med hög ljusstyrka och låg mättnad, ger en ren och minimalistisk känsla. Den röd-orange färgen, som är varm och intensiv, skapar energi och passion på sidan. Dessutom fångar den även användarens uppmärksamhet.
@@ -76,7 +76,7 @@ Webbsidan är uppdelad i två kolumner där den lugna färgen dominerar den ena 
 
 #  
 <h3><a href="https://kelseydake.com/" target="_blank">KelseyDake</a></h3>
-<img src="assets/img/kelseydake.png"  alt="golf?">
+<img src="assets/img/kelseydake.jpg" width="600" alt="">
 
 #  
 Kelsey Dakes hemsida använder av kombination av färgerna  gul och brun. Den gula färgen kan beskrivas som ljus varm gul, den är ljus och energisk färg som kan frambringa en varm och positivt känsla. Och den bruna färgen kan beskrivas som rik och mörkbrun, färgen är djup och jordnära. Den kan även förkninpas med stabilitet och sofistikering.

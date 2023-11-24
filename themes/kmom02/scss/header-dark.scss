@@ -6,7 +6,7 @@
 
 
 .header {
-    background-color: $yellow1;
+    background-color: $dark;
     position: sticky;
     top: 0;
 }
@@ -15,4 +15,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.site-header{
+    background-color: $darkwhite
 }

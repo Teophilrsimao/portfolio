@@ -1,19 +1,19 @@
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 
-@import 'html';
+@import 'html-dark';
 @import 'blockquotes';
 @import 'code';
-@import 'header';
-@import 'main';
-@import 'footer';
+@import 'header-dark';
+@import 'main-dark';
+@import 'footer-dark';
 @import 'title';
 @import 'figure';
 @import 'typografy';
-@import 'mobile-menu';
+@import 'mobile-menu-dark';
 @import 'technology';
 @import 'analysis';
-@import 'tech';
+@import 'tech-dark';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';

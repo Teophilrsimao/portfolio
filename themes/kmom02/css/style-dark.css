@@ -378,7 +378,7 @@ pre code {
 }
 
 .header {
-  background-color: #FFC833;
+  background-color: #1d1d1d;
   position: sticky;
   top: 0;
 }
@@ -389,9 +389,13 @@ pre code {
   align-items: center;
 }
 
+.site-header {
+  background-color: #E1D9D1;
+}
+
 .main {
   flex: 1 0 auto;
-  background-color: #E05E2F;
+  background-color: #101010;
 }
 
 .center {
@@ -400,8 +404,8 @@ pre code {
   display: block;
   margin: 150px auto;
   margin-top: 100px;
-  background-color: #FDFCFB;
-  border: 2px solid #FDFCFB;
+  background-color: #E1D9D1;
+  border: 2px solid #1d1d1d;
   border-radius: 20px;
 }
 
@@ -413,8 +417,8 @@ pre code {
   margin: 150px auto;
   margin-top: 50px;
   margin-bottom: 100px;
-  background-color: #FDFCFB;
-  border: 2px solid #FDFCFB;
+  background-color: #E1D9D1;
+  border: 2px solid #1d1d1d;
   border-radius: 20px;
 }
 
@@ -432,7 +436,7 @@ pre code {
   justify-content: space-between;
   border-top: 1px solid #222;
   align-items: center;
-  background-color: #070705;
+  background-color: #1d1d1d;
   margin-top: auto;
   bottom: 0;
   width: 100%;
@@ -448,7 +452,7 @@ pre code {
   }
 }
 .footer a {
-  color: #FDFCFB;
+  color: #E1D9D1;
   text-decoration: none;
 }
 
@@ -462,7 +466,7 @@ pre code {
 }
 
 .links {
-  color: #FDFCFB;
+  color: #E1D9D1;
 }
 
 .title, .logo {
@@ -564,13 +568,18 @@ img {
 }*/
 .nav a, .nav-toggle {
   font-weight: bold;
-  color: #070705;
+  color: #E1D9D1;
   text-decoration: none;
 }
 
-.nav a:hover, .active a {
-  border-bottom: 2px solid #070705;
-  color: #070705;
+.nav a:hover {
+  border-bottom: 2px solid #E1D9D1;
+  color: #E1D9D1;
+}
+
+.nav .active a {
+  border-bottom: 2px solid #E1D9D1;
+  color: #E1D9D1;
 }
 
 .nav-toggle {
@@ -595,6 +604,7 @@ img {
     padding: 0.5em 0;
   }
   .js .nav-toggle {
+    background-color: #070705;
     display: block;
     float: right;
     width: 2em;
@@ -824,17 +834,17 @@ img {
 
 .techbox a {
   text-decoration: none;
-  color: #070705;
+  color: #1d1d1d;
 }
 
 .techbox a:hover {
-  border-bottom: 2px solid #070705;
-  color: #070705;
+  border-bottom: 2px solid #1d1d1d;
+  color: #1d1d1d;
 }
 
 .techbox .active a {
-  border-bottom: 2px solid #070705;
-  color: #070705;
+  border-bottom: 2px solid #1d1d1d;
+  color: #1d1d1d;
 }
 
 .techgrid {

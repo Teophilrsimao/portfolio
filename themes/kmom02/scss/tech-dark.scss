@@ -9,17 +9,17 @@
 
 .techbox a {
     text-decoration: none;
-    color: $black;
+    color: $dark;
 }
 
-.techbox a:hover{
-    border-bottom: 2px solid $black;
-    color: $black;
+.techbox a:hover {
+    border-bottom: 2px solid $dark;
+    color: $dark;
 }
 
 .techbox .active a{
-    border-bottom: 2px solid $black;
-    color: $black;
+    border-bottom: 2px solid $dark;
+    color: $dark;
 }
 
 .techgrid {

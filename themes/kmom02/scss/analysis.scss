@@ -1,0 +1,107 @@
+/*.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}*/
+
+.boxx{
+    /*border: 1px solid black;*/
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.boxx ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.boxx li{
+    margin: 2rem;
+}
+
+.boxx li p{
+    font-size: 30px;
+}
+
+.boxx li a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.boxx li a:hover{
+    color:$white;
+}
+
+.analy {
+    display: grid;
+    gap: 1rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 
+    'one'
+    'two'
+    'three'
+    'four'
+    'five'
+    'six'
+    'seven'
+    'eight';
+}
+
+.boxx:nth-child(1) {
+    grid-area: one ;
+}
+
+.boxx:nth-child(2) {
+    grid-area: two ;
+    background-color: $brown;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: $black;
+    }
+}
+
+.boxx:nth-child(3) {
+    grid-area: three ;
+    background-color: $brown ;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: $black;
+    }
+}
+
+.boxx:nth-child(4) {
+    grid-area: four ;
+    background-color: $brown;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: $black;
+    }
+}
+
+
+@media (min-width: 50rem) {
+    .analy {
+        grid-template-areas: 
+        'one one one'
+        'two two two'
+        'three three three'
+        'four four four'
+    }
+}
+

@@ -4,18 +4,20 @@
     {% include 'incl/nav.twig' %}
 
     <div class="main" role="main">
-        <div class="center techgrid">
-            <div class="techbox">
-                <ul>
-                    <h3>Technoligies</h3>
-                    {% for page in pages("technology") %}
-                        <li {% if page.id==current_page.id %} class="active" {% endif %}><a href="{{ page.url }}">{{ page.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
+        <div class="cent">
+            <div class="const techgrid">
+                <div class="techbox">
+                    <ul>
+                        <h3>Technoligies</h3>
+                        {% for page in pages("technology") %}
+                            <li {% if page.id==current_page.id %} class="active" {% endif %}><a href="{{ page.url }}">{{ page.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
 
-            <div class="techbox">
-                {{ content }}
+                <div class="techbox">
+                    {{ content }}
+                </div>
             </div>
         </div>
     </div>

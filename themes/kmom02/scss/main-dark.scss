@@ -1,6 +1,6 @@
 .main {
     flex: 1 0 auto;
-    background-color: $orange;
+    background-color: $darkdark;
 }
 
 .center{
@@ -9,8 +9,8 @@
     display: block;
     margin: 150px auto;
     margin-top: 100px;
-    background-color: $white;
-    border: 2px solid $white;
+    background-color: $darkwhite;
+    border: 2px solid $dark;
     border-radius: 20px;
 }
 
@@ -22,9 +22,10 @@
     margin: 150px auto;
     margin-top: 50px;
     margin-bottom: 100px;
-    background-color: $white;
-    border: 2px solid $white;
+    background-color: $darkwhite;
+    border: 2px solid $dark;
     border-radius: 20px;
+
 }
 
 .const {

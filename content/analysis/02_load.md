@@ -54,6 +54,7 @@ För att samla in data använde jag mig av <a href="https://pagespeed.web.dev/">
 Resultat
 -----------------------
 ### <a href="https://www.golfspace.com.au/" target="_blank">GolfSpace</a>
+![Leaf](%base_url%/image/golfspace.jpg)
 <div class="row">
     <div class="column">
         <table>
@@ -116,6 +117,7 @@ Resultat
 #  
 
 ### <a href="https://besthorrorscenes.com/" target="_blank">BestHorrorSpace</a>
+![Leaf](%base_url%/image/besthorrorscenes.jpg)
 <div class="row">
     <div class="column">
         <table>
@@ -178,6 +180,7 @@ Resultat
 # 
 
 ### <a href="https://kelseydake.com/" target="_blank">KelseyDake</a>
+![Leaf](%base_url%/image/kelseydake.jpg)
 <div class="row">
     <div class="column">
         <table>

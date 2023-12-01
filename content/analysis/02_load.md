@@ -33,6 +33,13 @@ Laddningstid
         display: table;
         clear: both;
     }
+
+    @media screen and (max-width: 850px) {
+        .column {
+            width: 100%;
+            float: none;
+        }
+    }
 </style>
 
 Syftet med denna rapport är att undersöka och utvärdera webbplatsers laddningstid och användbarhet. Målet är att identifiera förbättringsområden och föreslå åtgärder för att optimera prestanda samt förbättra användarupplevelsen.

@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.box:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .box ul{
     list-style-type: none;
     padding: 0;
@@ -69,14 +73,14 @@
 .box:nth-child(3) {
     grid-area: three ;
     background-color: #f06529 ;
-    color: $white;
+    color: black;
 
     a {
-        color: $white;
+        color: black;
     }
 
     a:hover {
-        color: $black;
+        color: white;
     }
 }
 
@@ -109,14 +113,14 @@
 .box:nth-child(7) {
     grid-area: seven ;
     background-color: #f34f29;
-    color: $white;
+    color: black;
 
     a {
-        color: $white;
+        color: black;
     }
 
     a:hover {
-        color: $black;
+        color: white;
     }
 }
 

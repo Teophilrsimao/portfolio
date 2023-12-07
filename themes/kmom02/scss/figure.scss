@@ -8,6 +8,19 @@
     max-width: 100%;
 }
 
+.polaroid {
+    background-color: $white;
+    margin-bottom: 25px;
+}
+
+.polaroid:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.picdesc {
+    text-align: left;
+}
+
 .figure figcaption {
     caption-side: bottom;
     font-style: italic;

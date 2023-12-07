@@ -8,7 +8,7 @@ Teophil Simao
 ==========================
 
 
-<figure class="figure right">
+<figure class="figure right polaroid">
     <img src="assets/img/jag.jpg" width="256" alt="Bild på mig">
     <figcaption>Bild på mig</figcaption>
 </figure>

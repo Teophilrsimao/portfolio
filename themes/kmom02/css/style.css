@@ -394,6 +394,11 @@ pre code {
   background-color: #E05E2F;
 }
 
+.main p {
+  line-height: 1.5;
+  word-spacing: 2px;
+}
+
 .center {
   width: 90%;
   max-width: 900px;
@@ -502,6 +507,19 @@ pre code {
 
 .figure img {
   max-width: 100%;
+}
+
+.polaroid {
+  background-color: #FDFCFB;
+  margin-bottom: 25px;
+}
+
+.polaroid:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.picdesc {
+  text-align: left;
 }
 
 .figure figcaption {
@@ -617,6 +635,10 @@ img {
   align-items: center;
 }
 
+.box:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .box ul {
   list-style-type: none;
   padding: 0;
@@ -665,13 +687,13 @@ img {
 .box:nth-child(3) {
   grid-area: three;
   background-color: #f06529;
-  color: #FDFCFB;
+  color: black;
 }
 .box:nth-child(3) a {
-  color: #FDFCFB;
+  color: black;
 }
 .box:nth-child(3) a:hover {
-  color: #070705;
+  color: white;
 }
 
 .box:nth-child(4) {
@@ -701,13 +723,13 @@ img {
 .box:nth-child(7) {
   grid-area: seven;
   background-color: #f34f29;
-  color: #FDFCFB;
+  color: black;
 }
 .box:nth-child(7) a {
-  color: #FDFCFB;
+  color: black;
 }
 .box:nth-child(7) a:hover {
-  color: #070705;
+  color: white;
 }
 
 .box:nth-child(8) {
@@ -737,6 +759,10 @@ img {
   height: 200px;
   display: flex;
   align-items: center;
+}
+
+.boxx:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .boxx ul {
@@ -770,42 +796,43 @@ img {
 
 .boxx:nth-child(1) {
   grid-area: one;
+  color: black;
 }
 
 .boxx:nth-child(2) {
   grid-area: two;
-  background-color: #5B451F;
+  background-color: #070705;
   color: #FDFCFB;
 }
 .boxx:nth-child(2) a {
   color: #FDFCFB;
 }
 .boxx:nth-child(2) a:hover {
-  color: #070705;
+  color: #E05E2F;
 }
 
 .boxx:nth-child(3) {
   grid-area: three;
-  background-color: #5B451F;
+  background-color: #070705;
   color: #FDFCFB;
 }
 .boxx:nth-child(3) a {
   color: #FDFCFB;
 }
 .boxx:nth-child(3) a:hover {
-  color: #070705;
+  color: #E05E2F;
 }
 
 .boxx:nth-child(4) {
   grid-area: four;
-  background-color: #5B451F;
+  background-color: #070705;
   color: #FDFCFB;
 }
 .boxx:nth-child(4) a {
   color: #FDFCFB;
 }
 .boxx:nth-child(4) a:hover {
-  color: #070705;
+  color: #E05E2F;
 }
 
 @media (min-width: 50rem) {
@@ -852,9 +879,14 @@ img, embed, object, video {
   max-width: 100%;
 }
 
-/*.pic{
-    display: flex;
-}*/
+.pic img {
+  border: 5px groove black;
+}
+
+.pic img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .gallery {
   display: grid;
   gap: 1rem;

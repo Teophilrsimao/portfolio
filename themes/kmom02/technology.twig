@@ -7,8 +7,8 @@
         <div class="cent">
             <div class="const techgrid">
                 <div class="techbox">
+                    <strong>Technoligies</strong>
                     <ul>
-                        <h3>Technoligies</h3>
                         {% for page in pages("technology") %}
                             <li {% if page.id==current_page.id %} class="active" {% endif %}><a href="{{ page.url }}">{{ page.title }}</a></li>
                         {% endfor %}

@@ -840,9 +840,21 @@ img {
   color: #E05E2F;
 }
 
+.boxx:nth-child(5) {
+  grid-area: five;
+  background-color: #070705;
+  color: #FDFCFB;
+}
+.boxx:nth-child(5) a {
+  color: #FDFCFB;
+}
+.boxx:nth-child(5) a:hover {
+  color: #E05E2F;
+}
+
 @media (min-width: 50rem) {
   .analy {
-    grid-template-areas: "one one one" "two two two" "three three three" "four four four";
+    grid-template-areas: "one one one" "two two two" "three three three" "four four four" "five five five";
   }
 }
 .techbox {
